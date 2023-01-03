@@ -1,0 +1,72 @@
+body {
+  background: grey;
+  padding: 50px;
+  font-family: Courier New
+   
+  border: lightcoral solid 1px;
+  
+}
+
+
+section {
+  
+  border: 2px lightcoral dotted;
+  margin: 10px;
+  padding: 20px;
+ 
+ 
+}
+
+
+article {
+  
+  border: 5px lightgreen dotted;
+  margin: 50px;
+  padding: 20px;
+  text-align: center;
+ 
+}
+
+header{
+  margin: 30px;
+  border: 15px seashell dotted;
+  padding: 50px;
+  
+}
+
+h1 {
+  color: paleturquoise;
+  font-family: Bauhaus Bold;
+   font-size: 50px;
+   text-align: center;
+}
+
+h2 {
+  color: white;
+  font-family: Park Avenue;
+}
+
+h3 {
+  color: peachpuff;
+  text-align: center;
+}
+
+h4 {
+  color: lightgreen;
+  font-weight: bold;
+}
+
+h5{
+  color: lightpink;
+  font-size: 30px
+}
+
+p, li{
+  color: lightyellow;
+}
+
+
+
+a {
+  
+}
