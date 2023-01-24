@@ -1,0 +1,149 @@
+
+* {
+  box-sizing: border-box;
+  font-family: Park Avenue;
+  
+}
+
+
+body {
+  background: gray;
+  padding: 5px;
+}
+
+
+header{
+  width: 400px;
+  height: 350px;
+  margin: 50px auto;
+  border: 15px seashell dotted;
+  padding: 1px;
+}
+
+section {
+  border: 6px lightpink dotted;
+  margin: 10px;
+  padding: 10px;
+ display: block;
+}
+
+div.blue{
+  border: 5px solid paleturquoise;
+  padding: 5px;
+  margin: 20px;
+}
+
+div.green{
+  border: 5px solid green;
+  padding: 5px;
+  margin: 20px;
+}
+
+div.red{
+  border: 6px lightpink dotted;
+  margin: 10px;
+  padding: 10px;
+}
+
+ul{
+  display: inline-block;
+  list-style: normal;
+  color: lightyellow;
+  font-size: 70px
+  text-align: left;
+  font-family: Park Avenue;
+}
+
+
+.button {
+  color: paleturquoise;
+  border: 5px solid paleturquoise;
+  display: inline-block;
+  width: 100px;
+  height: 80px;
+  margin: 10px 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.button:hover {
+  background-color: paleturquoise;
+  border: 5px solid paleturquoise;
+  color: #FFF;
+}
+
+span.yo{
+  display: block;
+}
+
+
+
+
+article {
+  
+  border: 5px lightgreen dotted;
+  width: 100%;
+  padding: 10px;
+  
+  
+ 
+}
+
+.deco {
+  background-color: green;
+  opacity: 0.3;
+  border: blue solid 5px;
+  height: 90px;
+  width: 100%;
+}
+
+/*only for main title*/
+h1 {
+  color: paleturquoise;
+  font-size: 400%;
+  text-align: center;
+}
+
+/*title for blog entry name*/
+h2 {
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  color: peachpuff;
+  font-family: Park Avenue;
+  text-align: center;
+}
+
+h4 {
+  color: lightgreen;
+  font-family: Park Avenue;
+  font-weight: bold;
+}
+
+h5{
+  color: lightpink;
+  font-size: 30px
+  font-family: Park Avenue;
+}
+
+p{
+  color: lightyellow;
+  font-size: 70px
+  text-align: left;
+  font-family: Park Avenue;
+}
+
+
+a {
+  color: lightyellow;
+  font-size: 70px
+  text-align: left;
+}
+
+
+.nodisp{
+  display: none;
+};

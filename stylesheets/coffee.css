@@ -1,0 +1,57 @@
+body {
+    background-color: #e9922f; /* This sets the background color of the entire page to a coffee bean color */
+    max-width: 650px;
+    align-content: center;
+  }
+  
+div[
+
+]
+
+  h1 {
+    color: #ac5600; /* This sets the text color of headings to a darker coffee bean color */
+    text-align: center;
+  }
+
+  h2 {
+    color: #613f15; /* This sets the text color of headings to a darker coffee bean color */
+  }
+
+  h3 {
+    color: #945b0a; /* This sets the text color of headings to a darker coffee bean color */
+  }
+
+  h4 {
+    color: #6B4C25; /* This sets the text color of headings to a darker coffee bean color */
+  }
+
+  
+  p {
+    color: #6B4C25; /* This sets the text color of paragraphs to a darker coffee bean color */
+    font-size: 16px; /* This sets the font size of paragraphs to 16px */
+  }
+  
+  a {
+    color: #6B4C25; /* This sets the text color of links to a darker coffee bean color */
+  }
+  
+  .container {
+    max-width: 1100px; /* This sets the maximum width of the container to 1200px */
+    margin: 0 auto; /* This centers the container horizontally on the page */
+    
+  }
+  
+  /* Add a colorful border to all elements with the class "highlight" */
+.highlight {
+  text-align: center;
+  margin: 10px;
+  border: 5px solid #F5A623; /* A coffee bean color */
+  padding: 10px;
+
+}
+
+/* Change the background color and slide the text to the right when hovering over elements with the class "highlight" */
+.highlight:hover {
+  background-color: #fcb462; /* A darker coffee bean color */
+  transform: translateX(10px); /* Slide the text 10px to the right */
+}
