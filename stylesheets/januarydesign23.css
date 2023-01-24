@@ -1,0 +1,28 @@
+/* Define a container element that has a set width */
+.container {
+    width: 80%; /* This sets the width of the container to 80% of the screen */
+    margin: 0 auto; /* This centers the container horizontally on the page */
+    background-color: #F5A623; /* This sets the background color of the container */
+}
+
+/* Add a background color to the left side of the container */
+.container::before {
+    content: "";
+    width: 50%; /* This sets the width of the left side to 50% of the container's width */
+    height: 100%; /* This sets the height of the left side to 100% of the container's height */
+    background-color: #6B4C25; /* This sets the background color of the left side */
+    position: absolute; /* This positions the left side absolutely within the container */
+    left: 0; /* This positions the left side at the left edge of the container */
+    top: 0; /* This positions the left side at the top edge of the container */
+}
+
+/* Add a background color to the right side of the container */
+.container::after {
+    content: "";
+    width: 50%; /* This sets the width of the right side to 50% of the container's width */
+    height: 100%; /* This sets the height of the right side to 100% of the container's height */
+    background-color: #F5A623; /* This sets the background color of the right side */
+    position: absolute; /* This positions the right side absolutely within the container */
+    right: 0; /* This positions the right side at the right edge of the container */
+    top: 0; /* This positions the right side at the top edge of the container */
+}

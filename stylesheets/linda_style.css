@@ -1,23 +1,23 @@
-
 * {
   box-sizing: border-box;
   font-family: Park Avenue;
-  
 }
-
 
 body {
   background: gray;
   padding: 5px;
 }
 
-
 header{
   width: 400px;
   height: 350px;
   margin: 50px auto;
   border: 15px seashell dotted;
-  padding: 1px;
+  padding: 30px;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  
 }
 
 section {
@@ -39,20 +39,21 @@ div.green{
   margin: 20px;
 }
 
+/*invisible parent container around buttons to keep them neat and tidy*/
+div.buttonparent{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+/*dotted container*/
 div.red{
   border: 6px lightpink dotted;
   margin: 10px;
   padding: 10px;
+  text-align: center;
 }
 
-ul{
-  display: inline-block;
-  list-style: normal;
-  color: lightyellow;
-  font-size: 70px
-  text-align: left;
-  font-family: Park Avenue;
-}
 
 
 .button {
@@ -64,8 +65,9 @@ ul{
   margin: 10px 10px;
   padding: 10px;
   text-align: center;
+  display: grid;
+  place-items: center;
 }
-
 
 .button:hover {
   background-color: paleturquoise;
@@ -73,29 +75,11 @@ ul{
   color: #FFF;
 }
 
-span.yo{
-  display: block;
-}
-
-
-
-
 article {
   
   border: 5px lightgreen dotted;
   width: 100%;
-  padding: 10px;
-  
-  
- 
-}
-
-.deco {
-  background-color: green;
-  opacity: 0.3;
-  border: blue solid 5px;
-  height: 90px;
-  width: 100%;
+  padding: 10px; 
 }
 
 /*only for main title*/
@@ -125,22 +109,15 @@ h4 {
 
 h5{
   color: lightpink;
-  font-size: 30px
+  font-size: 30px;
   font-family: Park Avenue;
 }
 
-p{
+p, ul, a{
   color: lightyellow;
-  font-size: 70px
+  font-size: 20px;
   text-align: left;
   font-family: Park Avenue;
-}
-
-
-a {
-  color: lightyellow;
-  font-size: 70px
-  text-align: left;
 }
 
 
