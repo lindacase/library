@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: linear-gradient(to bottom right, #73ebdd, #7DA8F2, #B06AB3);
+    background-attachment: fixed;
+  }
+  
+
+  .big-title {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    
+  }
+  
+  .big-title h1 {
+    margin: 0;
+    font-size: 3rem;
+  }
+
+table.header{
+    border-collapse: collapse;
+    
+}  
+
+td.header {
+    text-transform: uppercase;
+    border-bottom: 1px solid #333;
+    color: #999;
+    
+}
+
+/* Table of contents */
+
+
+div.content{
+    color: #fff;
+    position: fixed;
+}
+   
+.content:hover a {
+    transform: translateY(-5px);
+    background-color: #ffffffcc;
+  }
+
+
+
+
+
+  /* quick overview section*/
+  summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+ 
+
+  .summary-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #999;
+    justify-content: space-between; 
+  }
+  
+  .summary-section p {
+
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+  }
+  
+  .summary-line {
+    height: 2rem;
+    border-left: 1px solid #999;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #333;
+  }
+  
+  /* */
+
+  
+  .container {
+    max-width: 1200px; /* or any other value that suits your design */
+    width: 100%; /* this will make the container expand to fill the available width */
+    margin: 0 auto; /* this will center the container horizontally */
+    /*background: linear-gradient(to right, #b7d9ff, #a1a1ff, #c46dff, #b7d9ff); /* or any other gradient that you prefer */
+    padding: 50px; /* adjust the padding to your liking */
+    box-sizing: border-box; /* this will include the padding in the total width of the container */
+  }
+
+  .container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: calc(100vh - 20rem);
+    background-color: #E3E3F3;
+    margin: 2rem 0;
+  }
+  
+  .box {
+    color: #333;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    transition: all 0.3s ease;
+    min-width: 300px;
+  }
+  
+  .box-large {
+    background-color: #e4e4ee8e;
+    width: 60%;
+    position:relative;
+    left: 20%;
+  }
+  
+  .box-medium {
+    background-color: #E3E3F3;
+    width: calc(33.33% - 4rem);
+  }
+  
+  .box-small {
+    background-color: #D1D1E1;
+    width: calc(30% - 4rem);
+  }
+  
+  .box:hover {
+    transform: translateY(-5px);
+    background-color: #ffffffcc;
+  }
+  
+  .box h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .box h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #666;
+  }
+  
+  .box p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+  
+  blockquote {
+    margin-top: 0;
+    margin-bottom: 1rem
+  }
+
+  .conclusion {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .conclusion h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+  
+  .conclusion p {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+  }
+
+  .conclusion-box {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 50px;
+    width: calc(50% - 4rem);
+    
+  }
+  
+  .rating-bar2 {
+    height: 20px;
+    background-color: rgba(15, 238, 223, 0.745);
+    border-radius: 10px;
+    position: relative;
+  }
+
+  .rating-bar {
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+    position: relative;
+    /* Increase the width of the rating bar */
+    width: 70%;
+  }
+  
+  .rating {
+    /* Shorten the width of the third column */
+    width: 20%;
+  }
+  
+  .rating-bar:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: #007bff;
+    border-radius: 10px;
+  }
+  
+  .rating-bar span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-left: 10px;
+    font-weight: bold;
+    
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin: 10px;
+    width: 90%;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid rgba(221, 221, 221, 0.548);
+    
+  }
+  
+  th {
+    background-color: #f2f2f27d;
+  }
+
+  h1{
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+  }
+
+  .bye {
+    text-align: center;
+    margin-top: 20%;
+    font-size: 1rem;
+    color: #fff;
+  }
