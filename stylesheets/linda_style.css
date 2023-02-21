@@ -4,8 +4,8 @@
 }
 
 body {
-  background: gray;
-  padding: 5px;
+  background: rgb(66, 66, 66);
+  place-items: center;
 }
 
 header{
@@ -17,26 +17,52 @@ header{
   text-align: center;
   display: grid;
   place-items: center;
-  
 }
 
-section {
-  border: 6px lightpink dotted;
-  margin: 10px;
-  padding: 10px;
- display: block;
+/* big Container */
+div.big{
+  background-color: rgb(129, 135, 135);
+  padding: 5px;
+  place-items: center;
 }
+
+
+/* colorful Containers */
 
 div.blue{
-  border: 5px solid paleturquoise;
+  border: 5px solid rgb(190, 255, 255);
   padding: 5px;
-  margin: 20px;
+  width: 77%;
 }
 
 div.green{
-  border: 5px solid green;
+  border: 5px solid rgb(86, 171, 86);
   padding: 5px;
   margin: 20px;
+  width: 63%;
+}
+
+div.yellow{
+  border: 5px solid rgb(245, 248, 167);
+  padding: 5px;
+  margin: 20px;
+  width: 82%;
+}
+
+
+/*dotted container*/
+div.dotted_red{
+  border: 6px lightpink dotted;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  display: block;
+}
+
+div.dotted_green {
+  border: 5px lightgreen dotted;
+  width: 100%;
+  padding: 10px; 
 }
 
 /*invisible parent container around buttons to keep them neat and tidy*/
@@ -45,15 +71,6 @@ div.buttonparent{
   display: flex;
   justify-content: center;
 }
-
-/*dotted container*/
-div.red{
-  border: 6px lightpink dotted;
-  margin: 10px;
-  padding: 10px;
-  text-align: center;
-}
-
 
 
 .button {
@@ -75,12 +92,6 @@ div.red{
   color: #FFF;
 }
 
-article {
-  
-  border: 5px lightgreen dotted;
-  width: 100%;
-  padding: 10px; 
-}
 
 /*only for main title*/
 h1 {
@@ -92,6 +103,7 @@ h1 {
 /*title for blog entry name*/
 h2 {
   color: white;
+  font-size: 200%;
   text-align: center;
 }
 
