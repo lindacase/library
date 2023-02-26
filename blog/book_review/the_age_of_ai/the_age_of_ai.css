@@ -32,6 +32,13 @@ td.header {
     
 }
 
+div.quote{
+  margin: 9%;
+  font-size: 270%;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+}
 /* Table of contents */
 
 
@@ -46,7 +53,21 @@ div.content{
   }
 
 
+ /* 
+ Here goes a sidebar with all the
+ AI milestones to discover as the
+ reader scrolls down the page.
 
+so that AI milestones isnt another
+text block like the others
+because that stuff is easy to look 
+up online
+
+also there is too much horizontal space
+without a sidebar
+ 
+ 
+ */
 
 
   /* quick overview section*/
